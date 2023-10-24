@@ -1,0 +1,75 @@
+/* Resetowanie stylów domyślnych przeglądarki */
+body, h1, h2, label, input, button, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Stylowanie głównego kontenera */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stylowanie nagłówka */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Stylowanie etykiet formularza */
+label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Stylowanie pól wejściowych */
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+/* Stylowanie przycisku */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Stylowanie listy pomiarów */
+#measurementList {
+    list-style: none;
+    padding: 0;
+}
+
+#measurementList li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}

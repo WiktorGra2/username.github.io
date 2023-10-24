@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formularz pomiarów ciśnienia</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formularz pomiarów ciśnienia</h1>
+        <form id="pressureForm">
+            <label for="nick">Nick:</label>
+            <input type="text" id="nick" name="nick" required><br>
+            <label for="systolicPressure">Ciśnienie skurczowe:</label>
+            <input type="number" id="systolicPressure" name="systolicPressure" required><br>
+            <label for="diastolicPressure">Ciśnienie rozkurczowe:</label>
+            <input type="number" id="diastolicPressure" name="diastolicPressure" required><br>
+            <label for="pulseRate">Tętno:</label>
+            <input type="number" id="pulseRate" name="pulseRate" required><br>
+            <button type="button" onclick="submitForm()">Dodaj pomiar</button>
+        </form>
+    </div>
+    <div class="container">
+        <h2>Historia pomiarów:</h2>
+        <ul id="measurementList">
+            <!-- Wyniki pomiarów będą wyświetlane tutaj -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
